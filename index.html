@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    
+    <title>Frontend Mentor | Social links profile</title>
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+<body class="flex flex-col min-h-screen items-center bg-gray-900 text-white">
+    <main class="flex items-center grow">
+        <article class="flex flex-col items-center rounded-[10px] w-[clamp(300px,90vw,384px)] p-400 sm:p-500 gap-y-300 bg-gray-800">
+            <!-- avatar -->
+            <figure>
+                <img class="max-w-20 rounded-full" src="./assets/images/avatar-luffy.jpg" alt="Monkey D. Luffy – © Eiichiro Oda / Toei Animation">
+            </figure>
+            <!-- heading -->
+            <header class="text-center">
+                <h1 class="text-preset-1 mb-100">Hot Chicken Curry</h1>
+                <h2 class="text-preset-3-bold text-green">Baratie Floating Restaurant</h2> 
+            </header>
+            <!-- content -->
+            <p class="text-preset-3">"Sailing the seas of code and creativity."</p>
+            <!-- buttons -->
+            <section class="flex flex-col w-full items-stretch gap-y-150">
+                <a href="https://github.com/HotChickenCurry" target="_blank">GitHub</a>
+                <a href="https://www.frontendmentor.io/profile/HotChickenCurry" target="_blank">Frontend Mentor</a>
+                <a class="disabled" tabindex="-1" aria-disabled="true" target="_blank">LinkedIn</a>
+                <a class="disabled" tabindex="-1" aria-disabled="true" target="_blank">Twitter</a>
+                <a class="disabled" tabindex="-1" aria-disabled="true" target="_blank">Instagram</a>
+            </section>
+        </article>
+    </main>
+    
+    <footer class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://www.frontendmentor.io/profile/HotChickenCurry">Chicken Curry</a>.
+        Image of Luffy © Eiichiro Oda / Toei Animation.
+    </footer>
+</body>
+</html>
