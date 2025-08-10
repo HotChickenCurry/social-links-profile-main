@@ -56,7 +56,7 @@ Using custom tailwind styles and modifying default custom styles and how to styl
 
 ### Continued development
 
-Next to would like to focus on adding a dark and light mode that users can toggle, add an animated hover effect using javascript 
+Next I would like to focus on adding a dark and light mode that users can toggle, add an animated hover effect using javascript 
 
 
 ### Useful resources
